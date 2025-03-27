@@ -1,50 +1,60 @@
-# Welcome to your Expo app 👋
+# Welcome to Movie Search Mobile App 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+#### This is a Movie Search mobile app in React Native Framework for Android or iOS.
 
-## Get started
+#### Here users can search the movies and read about it. He can view the ratings and poster and movie details and review it.
 
-1. Install dependencies
+This is a [React Native](https://reactnative.dev/) project built with [Expo](https://expo.dev). The project was created using [`create-expo-app`](https://docs.expo.dev/more/create-expo/#create-a-new-project), which sets up an Expo-managed workflow.
 
+
+## :point_right: How to Run the Application
+
+- Ensure that the following versions are installed on your system :
+  - Node.js : 18.20.5 &nbsp;&nbsp;&nbsp; `node -v`
+  - npm &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 10.8.2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `npm -v`
+  - npx &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 10.8.2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `npx -v`
+
+- Also make sure that you have downloaded [Expo Go](https://play.google.com/store/apps/details?id=host.exp.exponent&hl=en_IN&pli=1) App from google play store.
+- Ensure that you put your own [OMDb API](https://www.omdbapi.com/) key in .env file before running the application
+
+
+### Getting Started
+
+**1.** Clone the repository
    ```bash
-   npm install
+   git clone https://github.com/sanskarajput/Movie-Search-Mobile-App
    ```
 
-2. Start the app
-
+**2.** Navigate to the project directory
    ```bash
-    npx expo start
+   cd Movie-Search-Mobile-App
    ```
 
-In the output, you'll find options to open the app in a
+**3.** Install dependencies
+   ```bash 
+   npm install --loglevel=error 
+   # --loglevel=error to hide warnings
+   ```
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+**4.** Start the app
+   ```bash
+   npx expo start --tunnel
+   ```
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+   In the output, you'll find options to open the app in a
 
-## Get a fresh project
+   - [development build](https://docs.expo.dev/develop/development-builds/introduction/)
+   - [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
+   - [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
+   - [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo.
+      - To see the application on your Android device, scan the OR code from terminal using Expo Go.
 
-When you're ready, run:
+### :tada: Now you can access the application.
 
-```bash
-npm run reset-project
-```
+----
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+<div align="center">
 
-## Learn more
+<❤️> Thank you </❤️>
 
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+</div>
